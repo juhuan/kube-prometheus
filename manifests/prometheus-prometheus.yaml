@@ -17,7 +17,7 @@ spec:
       namespace: monitoring
       port: web
   externalLabels: {}
-  image: quay.io/prometheus/prometheus:v2.26.0
+  image: docker.io/juhuan/prometheus:v2.26.0
   nodeSelector:
     kubernetes.io/os: linux
   podMetadata:
